@@ -7,7 +7,7 @@
     <!--Flavicon-->
     <link rel="icon" href="Images/logo.png">
     <!--Main Css-->
-    <link rel="stylesheet" href="Style Sheets/main.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <!--Header and Navbar-->
@@ -41,12 +41,12 @@
                 </div>
             </div>
 
-            <div>
-                <div>
+            <div class="box-Tmain">
+                <div class="box-subT" id="green">
                     <!--Insert Icon-->
-                    <p>For patients</p>
+                    <p id="tx">For patients</p>
                     <p>Find a doctor, book a visit and solve ani health-related doubt</p>
-                    <select name="Choose country" id="country" value="Choose country">
+                    <select name="Choose country" value="Choose country" id="select1">
                             <option value="Choose country">Choose country</option>
                             <option value="Argentina">Argentina</option>
                             <option value="Brazil">Brazil</option>
@@ -63,11 +63,11 @@
                             <option value="Turkey">Turkey</option> 
                     </select>
                 </div>
-                <div>
+                <div class="box-subT" id="blue">
                     <!--Insert Icon-->
-                    <p>For doctors</p>
+                    <p id="tx">For doctors</p>
                     <p>Save time managing visits and cut no-shos by half</p>
-                    <select name="Choose country" id="country" value="Choose country">
+                    <select name="Choose country"  value="Choose country" id="select2">
                             <option value="Choose country">Choose country</option>
                             <option value="Argentina">Argentina</option>
                             <option value="Brazil">Brazil</option>
@@ -84,11 +84,11 @@
                             <option value="Turkey">Turkey</option> 
                     </select>
                 </div>
-                <div>
+                <div class="box-subT" id="black">
                     <!--Insert Icon-->
-                    <p>For clinics</p>
+                    <p id="tx">For clinics</p>
                     <p>Deliver an exceptional patient experience in your clinic</p>
-                    <select name="Choose country" id="country" value="Choose country">
+                    <select name="Choose country"  value="Choose country" id="select3">
                             <option value="Choose country">2 to 20 specialists</option>
                             <option value="Brazil">Brazil</option>
                             <option value="Czech">Czech</option>
@@ -98,7 +98,7 @@
                             <option value="Spain">Spain</option>
                             <option value="Turkey">Turkey</option> 
                     </select><br>
-                    <select name="Choose country" id="country" value="Choose country">
+                    <select name="Choose country"  value="Choose country" id="select3B">
                         <option value="Choose country">More than 20 specialists</option>
                         <option value="Brazil">Brazil</option>
                         <option value="Italy">Italy</option>
@@ -106,9 +106,106 @@
                         <option value="Poland">Poland</option>
                         <option value="Spain">Spain</option>
                         <option value="Turkey">Turkey</option> 
-                </select>
+                    </select>
                 </div>
             </div>
+            <section class="box-section1">
+                <div class="box-contain">
+                    <div>
+                        <p class="text">we are a global company with local culture</p>
+                    </div>
+                    <div class="Su-con">
+                        <div>
+                            <a href="">
+                              <img src="Images/logo-default-pl.svg" alt="" id="take">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                               <img src="Images/logo-default-cz.svg" alt="" id="take"> 
+                            </a>
+                        </div>
+                        <div>
+                            <a href=""> 
+                                <img src="Images/logo-feegow.svg" alt="" id="take">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="Images/docto.svg" alt="" id="take">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="Images/logo-jameda.svg" alt="" id="take">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="Images/my-dr-edm-logo.svg" alt="" id="take">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="Images/mio.svg" alt="" id="take">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="Images/logo-tuotempo.svg" alt="" id="take">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="Images/dok.svg" alt="" id="take">
+                            </a>
+                        </div>
+                        <div class="fo">
+                            <a href="">
+                                <img src="Images/logo-gipo-primary.svg" alt=""id="taken" >
+                            </a>
+                            <a href="">
+                                <img src="Images/logo-clinicloud.svg" alt="" id="taken">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="box-section2">
+                <div class="box-ny">
+                    <div>
+                        <p>The world's biggest healthcare platform</p>
+                        <p>We work from 9 offices all over the world, bringing Docplanner Group to life in 13 countries.</p>
+                        <img src="Images/logo.png" alt="">
+                    </div>
+                    <div class="box-sy">
+                        <div>
+                            <div class="box-no">
+                                <img src="Images/flag@2x.png" alt="">
+                                <h2>Leader in 13 countries</h2>
+                                <p>Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile</p>
+                            </div>
+                            <div class="box-no">
+                                <img src="Images/patients@2x.png" alt="">
+                                <h2>90,000,000 patients</h2>
+                                <p>visit our websites each month</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="box-no">
+                                <img src="Images/visits@2x.png" alt="">
+                                <h2>22,000,000 appointments</h2>
+                                <p>booked last month</p>
+                            </div>
+                            <div class="box-no">
+                                <img src="Images/doctors@2x.png" alt="">
+                                <h2>250,000 active doctors</h2>
+                                <p>trust our solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     
 </body>
