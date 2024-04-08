@@ -1,0 +1,203 @@
+*{
+    top: 0px;
+   /* margin-left: 5%;
+    margin-right: 5%; */
+    box-sizing: border-box;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+
+}
+body{
+    width: 100%;
+    height: 220px;
+    background-color: whitesmoke;
+}
+
+
+header{
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px whitesmoke;
+    position: sticky;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+}
+.box-nav{
+    display: flex;
+}
+.box-nav, .box-navElements{
+    justify-content: space-around;
+    text-decoration: none;
+    margin: 10px;
+    list-style: none;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+#contact{
+    color:#00b39b;
+}
+main{
+    margin-left: 18%;
+    margin-right: 18%;
+}
+.box-first{
+    display: block;
+}
+.box-logo{
+    margin-left: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+.box-title{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 30px;
+    color: #00b39b;
+    font-weight: 200;
+}
+.box-text1{
+    display: flex;
+}
+.subtext{
+    margin: 13px;
+    line-height: 30px;
+    font-weight: 100;
+}
+.box-Tmain{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+.box-subT{
+    margin: 18px;
+    font-size: 20px;
+    line-height: 35px;
+    width: 331.625px;
+    height: 365px;
+    min-height: 1px;
+    size: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.box-subT >p{
+    margin: 18px;
+}
+#tx{
+    font-weight: bold;
+    margin: 10px;
+}
+#green{
+    color: white;
+    background-color: #00ccb1;
+
+}
+#blue{
+    background-color: #3d83df;
+    color: white;
+}
+#black{
+    background-color:  #1b2734;
+    color: white;
+}
+#select1{
+    margin-top: 4rem;
+    font-size: 18px;
+    background-color: #00ccb1;
+    color: white;
+    border: none;
+    text-decoration: underline;
+    
+
+}
+#select2{
+    margin-top: 7rem;
+    font-size: 18px;
+    background-color: #3d83df);
+    color: white;
+    text-decoration: underline;
+    border: none;
+
+}
+#select3{
+    margin-top: 5rem;
+    font-size: 18px;
+    background-color: #1b2734;
+    color: white;
+    text-decoration: underline;
+    border: none;
+
+}
+#select3B{
+    font-size: 18px;
+    background-color: #1b2734;
+    color: white;
+    text-decoration: underline;
+    border: none;
+}
+
+.box-section1{
+    box-sizing: border-box;
+}
+.box-contain{
+    display: flex;
+    justify-content: space-between;
+}
+.Su-con{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 160px;
+    grid-template-rows: auto;
+    
+}
+.text{
+    color: #00b39b;
+    font-size: 30px;
+    padding: 15px;
+}
+#take{
+    width: 100px;
+    margin: 10px;
+    color: gray;
+}
+#taken{
+    width: 40px;
+    color: gray; 
+}
+.fo{
+    display: flex;
+}
+.box-section2{
+    background-color: rgba(0, 204, 177, 0.5);
+    margin-left: -28%;
+    margin-right: -28%;
+}
+.box-ny{
+    display: flex;
+    justify-content: space-between;
+}
+.box-sy{
+    display: flex;
+    flex-direction: row; 
+}
+.box-no{
+    background-color: white;
+    border: 1px solid;
+    margin: 10px;
+    height: 250px;
+    width: auto;
+    border-radius: 8px;
+}
+
+@media (max-device-width: 480px) {
+    .logo-docplanner {
+        width:215px
+}
